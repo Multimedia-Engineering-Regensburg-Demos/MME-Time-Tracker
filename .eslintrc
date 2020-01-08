@@ -1,4 +1,7 @@
 {
+    "parserOptions": {
+        "sourceType": "module"
+    },
     "rules":
     {
         "block-scoped-var": "error",
@@ -38,9 +41,6 @@
         "strict": "error",
         "vars-on-top": "error",
         "yoda": "error"
-    },
-    "parserOptions": {
-        "sourceType": "module"
     },
     "env":
     {
