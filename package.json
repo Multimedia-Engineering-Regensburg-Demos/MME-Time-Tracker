@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "A simple time tracker",
   "main": "index.js",
-  "dependencies": {
-    "http-server": "^0.11.1"
-  },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Time-Tracker/issues"
   },
-  "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Time-Tracker#readme"
+  "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Time-Tracker#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
 }
